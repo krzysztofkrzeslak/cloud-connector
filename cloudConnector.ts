@@ -48,7 +48,7 @@ namespace cloudConnector {
     doSendAtCommand("AT+CMGF=1"); // sms message text mode
     doSendAtCommand("AT+CMGD=0,4"); // delete all sms messages
     setupHandlers();
-    forEuropeanVersionTurnOnlyCatM();
+    //forEuropeanVersionTurnOnlyCatM();
     usbLogger.info(`Init done...`);
   }
 
